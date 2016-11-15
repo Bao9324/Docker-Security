@@ -7,7 +7,7 @@ This project is for Application Security Course.
   eitanban (Eitan Banniettis)  
   Bao9324 (Baochen Wang)  
   jaydsolanki (Jay Dharmendra Solanki)  
-              (Pratik Anil Thakker)   
+  "WAITING..." (Pratik Anil Thakker)   
               
 ###Project Goal:
 
