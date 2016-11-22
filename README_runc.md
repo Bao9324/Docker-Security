@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Build Status](https://jenkins.dockerproject.org/buildStatus/icon?job=runc Master)](https://jenkins.dockerproject.org/job/runc Master)
 
 ## runc
@@ -189,3 +190,19 @@ PIDFile=/run/mycontainerid.pid
 [Install]
 WantedBy=multi-user.target
 ```
+=======
+# Docker-Security
+
+This project is for Application Security Course.   
+
+###Team
+  Changy- (Jin Cheng)  
+  eitanban (Eitan Banniettis)  
+  Bao9324 (Baochen Wang)  
+  jaydsolanki (Jay Dharmendra Solanki)  
+  "WAITING..." (Pratik Anil Thakker)   
+              
+###Project Goal:
+
+Improve the security features of Docker, by limiting its access to critical lines of code in the underlying operating system (OS) kernel (Linux kernel in our project).
+>>>>>>> 48189fadf1cb26367522a47e3ef0a63cc09b465b
