@@ -29,7 +29,7 @@ runc : https://github.com/opencontainers/runc
   
 ##Steps
 Intall Golang, libseccomp and Docker.  
-```
+```bash
 mkdir WORKSPACE  
 cd WORKSPACE
 git clone https://github.com/Changy-/Docker-Security
@@ -43,7 +43,7 @@ cd runc
  ```  
    
 ###Create Container  
-```
+```bash
 mkdir mycontainer
 cd mycontainer
 # create rootfs
@@ -59,7 +59,7 @@ cp ../config.json .
 
 ###Running Containers
 
-```
+```bash
 #assuming we are in WORKSPACE/runc
 cd mycontainer
 runc run mycontainerid
