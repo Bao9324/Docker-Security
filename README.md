@@ -49,10 +49,26 @@ cd mycontainer
 # create rootfs
 mkdir rootfs
 docker export $(docker create busybox) | tar -C rootfs -xvf -
+```  
+Here, all of above steps are the same as original Runc.  
+In next step, we don't need to run `runc spec`. Just use 
 ```
-Here, all of above steps are the same as original Runc.
+cp ../config_security.json .  
+cp ../config.json .
+```  
 
+###Running Containers
 
+```
+#assuming we are in WORKSPACE/runc
+cd mycontainer
+runc run mycontainerid
+```  
+This will load normal runc container. If you want to use security enhance version, just use  
+```
+runc run -security mycontainerid
+```  
+Container will load config_security.json where we add security rules.
 
 
 
