@@ -33,7 +33,7 @@ Intall Golang, libseccomp and Docker.
 mkdir WORKSPACE  
 cd WORKSPACE
 git clone https://github.com/Changy-/Docker-Security
-cd runc
+cd Docker-Security
 ```
   
  ```
